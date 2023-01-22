@@ -1,0 +1,269 @@
+<!--
+
+je vais utiliser une trame de fond (#layer), des sections (#section), des contenants (.contenair)
+
+ainsi que des repères (.landmark) flexibles pour élaborer une matrice responsive. 
+
+Mes media-queries vont essentiellement cibler des classes plus petites dans les contenants.
+
+Par ailleurs, ce projet est adapté pour les écrans de 455px à 1400px (base initiale).
+
+Enfin, je prévois un code css en natif pour une ergonomie de travail que j'affectionne, le framework bootstrap sera en retrait.
+
+Toutefois, une version plus "bootstrapienne" vous sera adressée si nécessaire. 
+
+Aarondiv
+
+-->
+
+<!DOCTYPE html>
+
+<html>
+
+	<head>
+		<meta charset="utf-8" />
+		
+		<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap;css?family=PT+Sans" rel="stylesheet"> 
+		<link rel="stylesheet" href="css/style.css" />
+		
+		<title>psd mock-up web version</title>
+	</head>
+
+	<header>
+		<meta name="language" content="en"/>
+		<meta name="Aarondiv" content="Train template Design by Mymaneisdie"/>
+		<meta property="og:title" content="psd mockup web version"/>
+		<meta property="og:type" content="text/html; charset=utf-8"/>
+		<meta property="og:url" content="https://openclassrooms.com/fr/courses/3504431-decoupez-et-integrez-une-maquette/6770866-entrainez-vous-a-integrer-une-maquette-en-html-et-css"/>
+		<meta property="og:image" content="https://fr.365psd.com/download/train-free-landing-page-template-54193"/>
+		<meta property="og:description" content="psd mockup integration adaptable for any type of screen; openclassrooms: courses; decoupez et integrez une maquette"/>
+	</header>
+
+<!-- toolbar -->
+
+	<body>
+		<div id="layer">
+			<!-- section_1 -->
+		   	<section id="section_1">
+		       	<div class="container">
+		       		<div class="row">
+		            	<div class="col-lg-12 col-md-12 col-xs-12">
+			            	<div class="heading">
+				           		<a href="" class="link">Home</a>
+				           		<a href="" class="link">Gallery</a>
+				           		<a href="" class="link">About</a>
+				           		<a href="" class="link">Contact</a>
+				           	</div>
+			            </div>
+			        </div>
+			        <div class="row">
+			            <div class="col-lg-12 col-md-12 col-xs-12">
+			           		<img class="logo" src="pictures/logo.png">
+			            </div>
+			        </div>
+		        </div>
+		    </section>
+
+<!-- contents -->
+
+			<!-- section_2 -->
+			<section id="section_2">
+		       	<div class="container">
+			    	<div class="row">
+			            <div class="col-lg-12 col-md-12 col-xs-12">
+			           		<img class="center_element mountain" src="pictures/background_picture.png">
+			       	    </div>
+			       	</div>
+			       	<div class="row">
+				       	<div class="col-lg-12"> 
+				       		<div class="center_element landmark landmark_0">
+				            	<h1 class="big_title">WE CREATE DESIGN THAT YOU WILL LOVE</h1>
+				        	</div>
+				        </div>
+			    	</div>
+			    	<div class="row">
+				       	<div class="col-lg-12 col-md-12 col-xs-12"> 
+				            <input type="submit" id="submit_read" class="center_element" value="Read more">
+				        </div>
+			    	</div>
+		        </div>
+		    </section>
+		    <!-- section_3 -->
+			<section id="section_3">
+		       	<div class="container">
+		       		<div class="row">
+				       	<div class="col-lg-12 col-md-12 col-xs-12"> 
+				            <div class="center_element landmark landmark_1">
+				             	<h2 class="title title_1">Our Features</h2>
+				            	<p class="paragraph">Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
+				            </div>
+				        </div>
+			    	</div>
+			    	<div class="row">
+				       	<div class="col-lg-12 col-md-12 col-xs-12"> 
+				            <div class="center_element icon_flex_box">
+				            	<div class="icon_box">
+				            		<img class="icon" src="pictures/icon_1.png">
+				            		<h3 class="icon_title">Main Title Here</h3>
+				            		<p class="icon_paragraph">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incidi-dunt ut labore magna aliqua.</p>
+				            	</div>
+				            	<div class="icon_box">
+				            		<img class="icon" src="pictures/icon_2.png">
+				            		<h3 class="icon_title">Main Title Here</h3>
+				            		<p class="icon_paragraph">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incidi-dunt ut labore magna aliqua.</p>
+				            	</div>
+				            	<div class="icon_box">
+				            		<img class="icon" src="pictures/icon_3.png">
+				            		<h3 class="icon_title">Main Title Here</h3>
+				            		<p class="icon_paragraph">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incidi-dunt ut labore magna aliqua.</p>
+				            	</div>
+				            </div>
+				        </div>
+			    	</div>
+			    	<div class="row">
+				       	<div class="col-lg-12 col-md-12 col-xs-12"> 
+				       		<div class="center_element separator">
+				            	<div class="box box_1"></div>
+				            	<div class="box box_2"></div>
+				            	<div class="box box_3"></div>
+				            	<div class="box box_4"></div>
+				            	<div class="box box_5"></div>
+				            	<div class="box box_6"></div>
+				            	<div class="box box_7"></div>
+				            </div>
+				            <img class="center_element separator_jpg" src="pictures/separator.png">
+				        </div>
+			    	</div>
+		        </div>
+		    </section>
+		    <!-- section_4 -->
+			<section id="section_4">
+		       	<div class="container">
+		            <div class="row">
+				       	<div class="col-lg-12 col-md-12 col-xs-12"> 
+				            <div class="center_element landmark landmark_2">
+				             	<h2 class="title title_2">Selection of our Work</h2>
+				            	<p class="paragraph select_paragraph">Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
+				            </div>
+				        </div>
+				    </div>
+				    <div class="row">
+				       	<div class="col-lg-12 col-md-12 col-xs-12"> 
+				            <div class="center_element preview_flex_box">
+				            	<img class="preview" src="pictures/preview_1.jpg">
+				            	<img class="preview" src="pictures/preview_2.jpg">
+				            	<img class="preview" src="pictures/preview_3.jpg">
+				            	<img class="preview" src="pictures/preview_4.jpg">
+				            	<img class="preview" src="pictures/preview_5.jpg">
+				            	<img class="preview" src="pictures/preview_6.jpg">
+				            </div>
+				        </div>
+				    </div>
+		        </div>
+		    </section>
+		    <!-- section_5 -->
+			<section id="section_5">
+		       	<div class="container">
+		            <div class="row">
+				       	<div class="col-lg-12 col-md-12 col-xs-12"> 
+				            <div class="center_element landmark landmark_3">
+				             	<h2 class="title title_3">Testimonial</h2>
+				            </div>
+				            <div class="center_element testi_flex_box">
+				            	<div class="center_element testi_fram">
+				            		<div class="testi_bloc">
+				            			<p class="paragraph testi_paragraph">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eius<br>mod tempor incididunt ut labore et dolore magna aliqua.<br>Ut enim ad minim veniam.<span><br><br>-John Doe</span></p>
+				            		</div>
+				            		<img class="quotation_mark_left" src="pictures/quotation_mark_left.png">
+				            		<img class="quotation_mark_right" src="pictures/quotation_mark_right.png">
+				            	</div>
+				            	<img class="shape" src="pictures/shape.png">	
+				            </div>
+				        </div>
+				    </div>
+		        </div>
+		    </section> 
+
+<!-- footer -->
+
+		    <footer>
+		    	<section id="section_6">
+			       	<div class="container">
+				    	<div class="row">
+				            <div class="col-lg-12 col-md-12 col-xs-12">
+				            	<form method="POST" action="" id="form_newsletter">
+				            		<div class="center_element newsletter">
+										<label for="subscribe" class="subscribe_lab">Subscribe Our Newsletter</label>
+										<input type="text" name="subscribe_newsletter" id="subscribe_newsletter" placeholder="Email address">
+										<input type="submit" name="submit_newsletter" id="submit_newsletter" value="SEND">
+									</div>
+						        </form>
+				       	    </div>
+				       	</div>
+			        </div>
+			    </section>
+			    <section id="section_7">
+			       	<div class="container">
+				    	<div class="row">
+				            <div class="col-lg-12 col-md-12 col-xs-12">
+				            	<img class="background_style" src="pictures/background_style.png">
+				       	    </div>
+				       	</div>
+				       	<div class="row">
+				            <div class="col-lg-12 col-md-12 col-xs-12">
+				            	<img class="left_arrow" src="pictures/left_arrow.png">
+				       	    </div>
+				       	</div>
+				       	<div class="row">
+				            <div class="col-lg-12 col-md-12 col-xs-12">
+				            	<img class="right_arrow" src="pictures/right_arrow.png">
+				       	    </div>
+				       	</div>
+				       	<div class="row">
+				            <div class="col-lg-12 col-md-12 col-xs-12">
+				            	<img class="center_element big_twitter" src="pictures/big_twitter.png">
+				       	    </div>
+				       	</div>
+				       	<div class="row">
+				            <div class="center_element twit_flex_box">
+		            			<p class="paragraph twit_paragraph">RT<span>@johndoe</span> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s<br><br><span>follow us @train</span></p>	
+				            </div>
+				       	</div>
+			        </div>
+			    </section>
+			    <section id="section_8">
+			       	<div class="container">
+				    	<div class="row">
+				            <div class="col-lg-12 col-md-12 col-xs-12"> 
+					            <div class="center_element landmark landmark_4">
+					             	<h4 class="title title_4">Follow Us on</h4>
+					            </div>
+				        	</div>
+				       	</div>
+				       	<div class="row">
+				            <div class="col-lg-12 col-md-12 col-xs-12"> 
+					            <div class="center_element fellow_box">
+					            	<img class="icon_fellow" src="pictures/facebook.png">
+					            	<img class="icon_fellow" src="pictures/twitter.png">
+					            	<img class="icon_fellow" src="pictures/googleplus.png">
+					            	<img class="icon_fellow" src="pictures/dribbble.png">
+					            	<img class="icon_fellow" src="pictures/tumblr.png">
+					            </div>
+				        	</div>
+				       	</div>
+				    </div> 
+				</section>
+				<section id="section_9">
+			       	<div class="container">
+				    	<div class="row">
+				            <div class="col-lg-12 col-md-12 col-xs-12"> 
+					         	<p class="center_element end_paragraph">© 2013 Train. Design by Mymaneisdie</p>
+				        	</div>
+				       	</div>
+				    </div>
+				</section>
+			</footer>
+		</div>
+	</body>
+</html>
